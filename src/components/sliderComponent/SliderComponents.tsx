@@ -44,9 +44,9 @@ export default function SliderComponent() {
   };
 
   return (
-    <div className="relative w-full   mx-auto overflow-hidden  shadow-lg">
+    <div className="relative w-full mx-auto overflow-hidden shadow-lg">
       {/* Contenedor de imágenes */}
-      <div className="relative h-[85%] md:h-96 lg:h-[28rem]">
+      <div className="relative h-48 sm:h-64 md:h-80 lg:h-96 xl:h-[28rem]">
         {images.map((image, index) => (
           <div
             key={index}
@@ -66,10 +66,10 @@ export default function SliderComponent() {
       {/* Botones de navegación */}
       <button
         onClick={goToPrevious}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 hover:bg-opacity-75 text-white p-2 rounded-full transition-all duration-200"
+        className="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 hover:bg-opacity-75 text-white p-1.5 sm:p-2 rounded-full transition-all duration-200 z-10"
         aria-label="Imagen anterior"
       >
-        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+        <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 20 20">
           <path
             fillRule="evenodd"
             d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
@@ -80,10 +80,10 @@ export default function SliderComponent() {
 
       <button
         onClick={goToNext}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 hover:bg-opacity-75 text-white p-2 rounded-full transition-all duration-200"
+        className="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 hover:bg-opacity-75 text-white p-1.5 sm:p-2 rounded-full transition-all duration-200 z-10"
         aria-label="Siguiente imagen"
       >
-        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+        <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 20 20">
           <path
             fillRule="evenodd"
             d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
@@ -93,12 +93,12 @@ export default function SliderComponent() {
       </button>
 
       {/* Indicadores de puntos */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+      <div className="absolute bottom-2 sm:bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-1.5 sm:space-x-2 z-10">
         {images.map((_, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-3 h-3 rounded-full transition-all duration-200 ${
+            className={`w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full transition-all duration-200 ${
               index === currentSlide
                 ? "bg-white"
                 : "bg-white bg-opacity-50 hover:bg-opacity-75"

@@ -43,32 +43,32 @@ export default function ElegirnosComponent() {
   ];
   return (
     <>
-      <div className="container mx-auto pt-4 ">
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
+      <div className="container mx-auto pt-4 px-4 sm:px-6">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-800 mb-6 sm:mb-8">
           ¿Por qué elegir BiblioEscolar?
         </h2>
-        <p className="text-lg text-center text-gray-600 mb-12">
+        <p className="text-base sm:text-lg text-center text-gray-600 mb-8 sm:mb-10 md:mb-12 max-w-3xl mx-auto px-2">
           Una plataforma diseñada específicamente para enriquecer la experiencia
           educativa de los estudiantes.
         </p>
       </div>
 
-      <div className="container mx-auto border-t-2 border-gray-200 pt-8 mt-8 mb-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="container mx-auto border-t-2 border-gray-200 pt-6 sm:pt-8 mt-6 sm:mt-8 mb-4 px-4 sm:px-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
           {ELEGIRNOS.map((item) => (
             <div
               key={item.id}
-              className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300"
+              className="bg-white rounded-lg shadow-lg p-4 sm:p-6 flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-blue-500 rounded-full flex items-center justify-center mb-3 sm:mb-4">
                 <FontAwesomeIcon
                   icon={item.icon}
-                  className="text-white text-xl"
+                  className="text-white text-lg sm:text-xl"
                 ></FontAwesomeIcon>
               </div>
               <div>
-                <h3 className="text-lg font-bold mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-600">{item.text}</p>
+                <h3 className="text-base sm:text-lg font-bold mb-2">{item.title}</h3>
+                <p className="text-xs sm:text-sm text-gray-600">{item.text}</p>
               </div>
             </div>
           ))}
