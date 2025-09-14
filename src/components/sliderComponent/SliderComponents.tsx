@@ -5,19 +5,19 @@ export default function SliderComponent() {
 
   const images = [
     {
-      src: "/src/assets/images/banner_dickends.png",
+      src: "/images/banner_dickends.png",
       alt: "Charles Dickens Banner",
     },
     {
-      src: "/src/assets/images/banner_elenagarro.png",
+      src: "/images/banner_elenagarro.png",
       alt: "Elena Garro Banner",
     },
     {
-      src: "/src/assets/images/banner_oscarwilde.png",
+      src: "/images/banner_oscarwilde.png",
       alt: "Oscar Wilde Banner",
     },
     {
-      src: "/src/assets/images/banner_traven.png",
+      src: "/images/banner_traven.png",
       alt: "B. Traven Banner",
     },
   ];
