@@ -1,0 +1,42 @@
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shadow3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7f1d1d;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#450a0a;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="300" fill="url(#bg3)"/>
+  
+  <!-- Decorative border -->
+  <rect x="10" y="10" width="180" height="280" fill="none" stroke="#7f1d1d" stroke-width="2"/>
+  
+  <!-- Title area -->
+  <rect x="20" y="40" width="160" height="80" fill="rgba(255,255,255,0.1)" rx="5"/>
+  
+  <!-- Heart motif -->
+  <path d="M100 200 C85 185, 60 185, 60 210 C60 235, 100 260, 100 260 C100 260, 140 235, 140 210 C140 185, 115 185, 100 200 Z" 
+        fill="rgba(255,255,255,0.3)" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  
+  <!-- Decorative swirls -->
+  <path d="M70 150 Q80 140, 90 150 Q100 160, 110 150 Q120 140, 130 150" 
+        fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+  
+  <!-- Book spine effect -->
+  <rect x="0" y="0" width="15" height="300" fill="url(#shadow3)"/>
+  
+  <!-- Text placeholders -->
+  <rect x="30" y="50" width="140" height="8" fill="rgba(255,255,255,0.8)" rx="2"/>
+  <rect x="30" y="65" width="120" height="6" fill="rgba(255,255,255,0.6)" rx="2"/>
+  <rect x="30" y="78" width="110" height="6" fill="rgba(255,255,255,0.6)" rx="2"/>
+  <rect x="30" y="91" width="90" height="6" fill="rgba(255,255,255,0.6)" rx="2"/>
+  
+  <!-- Author area -->
+  <rect x="30" y="250" width="140" height="6" fill="rgba(255,255,255,0.7)" rx="2"/>
+  <rect x="30" y="265" width="100" height="6" fill="rgba(255,255,255,0.7)" rx="2"/>
+</svg>

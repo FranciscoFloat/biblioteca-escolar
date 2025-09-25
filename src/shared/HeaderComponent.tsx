@@ -10,7 +10,7 @@ export default function HeaderComponent() {
           <div className="flex justify-between items-center">
             <div className="text-lg sm:text-2xl md:text-3xl font-bold text-blue-400 flex items-center gap-1 sm:gap-2">
               <FontAwesomeIcon icon={faBook} className="text-base sm:text-xl md:text-2xl" />
-              <span className="hidden xs:inline sm:inline">Biblioteca Escolar</span>
+              <span className="hidden xs:inline sm:inline">Jorge Luis Borges</span>
               <span className="xs:hidden sm:hidden">BiblioEscolar</span>
             </div>
             <div className="flex space-x-2 sm:space-x-4">

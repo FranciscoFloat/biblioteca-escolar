@@ -1,0 +1,41 @@
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shadow4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4c1d95;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#2e1065;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="300" fill="url(#bg4)"/>
+  
+  <!-- Decorative border -->
+  <rect x="10" y="10" width="180" height="280" fill="none" stroke="#4c1d95" stroke-width="2"/>
+  
+  <!-- Title area -->
+  <rect x="20" y="40" width="160" height="80" fill="rgba(255,255,255,0.1)" rx="5"/>
+  
+  <!-- Mexican/mystical motif -->
+  <circle cx="100" cy="180" r="40" fill="rgba(255,255,255,0.2)"/>
+  <polygon points="100,150 110,170 130,170 116,185 122,205 100,195 78,205 84,185 70,170 90,170" 
+           fill="rgba(255,255,255,0.4)"/>
+  
+  <!-- Decorative triangular patterns -->
+  <polygon points="60,220 70,240 50,240" fill="rgba(255,255,255,0.3)"/>
+  <polygon points="140,220 150,240 130,240" fill="rgba(255,255,255,0.3)"/>
+  
+  <!-- Book spine effect -->
+  <rect x="0" y="0" width="15" height="300" fill="url(#shadow4)"/>
+  
+  <!-- Text placeholders -->
+  <rect x="30" y="50" width="140" height="8" fill="rgba(255,255,255,0.8)" rx="2"/>
+  <rect x="30" y="65" width="80" height="6" fill="rgba(255,255,255,0.6)" rx="2"/>
+  
+  <!-- Author area -->
+  <rect x="30" y="250" width="140" height="6" fill="rgba(255,255,255,0.7)" rx="2"/>
+  <rect x="30" y="265" width="80" height="6" fill="rgba(255,255,255,0.7)" rx="2"/>
+</svg>
