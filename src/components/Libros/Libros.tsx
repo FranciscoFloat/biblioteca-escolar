@@ -79,6 +79,30 @@ export default function LibrosComponent() {
       fileName: "navidad_en_las_monta_as_-_altamirano.pdf",
       color: "from-teal-400 to-teal-600",
       coverImage: "/images/book-covers/altamirano-navidad.svg"
+    },
+    {
+      id:10,
+      title:"Cuento de navidad",
+      author:"Charles Dickens",
+      fileName:"cuentonavidad.pdf",
+      color:"from-orange-400 to-orange-600",
+      coverImage:"/images/book-covers/kruif-cazadores.svg"
+    },
+    {
+      id:11,
+      title:"Juan Rulfo Llano en llamas",
+      author:"Juan Rulfo Llano",
+      fileName:"JUAN_RULFO_LLANO_EN_LLAMAS.pdf",
+      color:"from-yellow-400 to-yellow-600",
+      coverImage:"/images/book-covers/borges-cuentos.svg"
+    },
+    {
+      id:12,
+      title:"Cazadores de microbios",
+      author:"Paul de Kruif",
+      fileName:"Paul de Kruif - Cazadores de microbios.pdf",
+      color:"from-blue-400 to-blue-600",
+      coverImage:"/images/book-covers/kruif-cazadores.svg"
     }
   ];
 
