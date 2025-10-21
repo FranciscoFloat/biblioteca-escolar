@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="600" height="900" fill="url(#bg)"/>
+  <text x="50%" y="40%" fill="#ffffff" font-size="56" font-weight="700" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto">Pedro Páramo</text>
+  <text x="50%" y="52%" fill="#FDE68A" font-size="32" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto">Juan Rulfo</text>
+  <!-- Motivo minimalista: líneas del páramo -->
+  <g stroke="#78350F" stroke-width="4" fill="none" opacity="0.8">
+    <path d="M60 760 C160 720, 220 740, 300 730 C380 720, 460 740, 540 720"/>
+    <path d="M80 800 C180 760, 240 780, 300 770 C360 760, 440 780, 520 760"/>
+    <path d="M40 840 C140 800, 220 820, 300 810 C380 800, 460 820, 560 800"/>
+  </g>
+</svg>

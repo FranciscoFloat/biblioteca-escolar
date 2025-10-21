@@ -20,6 +20,10 @@ export default function SliderComponent() {
       src: "/images/banner_traven.png",
       alt: "B. Traven Banner",
     },
+    {
+      src: "/images/PORTADA.png",
+      alt: "Portada Biblioteca",
+    },
   ];
 
   // Auto-slide functionality
@@ -44,7 +48,7 @@ export default function SliderComponent() {
   };
 
   return (
-    <div className="relative w-full mx-auto overflow-hidden shadow-lg">
+    <div className="relative w-full mx-auto  overflow-hidden shadow-lg">
       {/* Contenedor de imágenes */}
       <div className="relative h-48 sm:h-64 md:h-80 lg:h-96 xl:h-[28rem]">
         {images.map((image, index) => (

@@ -103,6 +103,30 @@ export default function LibrosComponent() {
       fileName:"Paul de Kruif - Cazadores de microbios.pdf",
       color:"from-blue-400 to-blue-600",
       coverImage:"/images/book-covers/kruif-cazadores.svg"
+    },
+    {
+      id: 13,
+      title: "El Gato Negro",
+      author: "Edgar Allan Poe",
+      fileName: "2 El gato negro.pdf",
+      color: "from-gray-700 to-gray-900",
+      coverImage: "/images/book-covers/poe-gato-negro.svg"
+    },
+    {
+      id: 14,
+      title: "Pedro Páramo",
+      author: "Juan Rulfo",
+      fileName: "Pedro-Paramo.pdf",
+      color: "from-amber-500 to-amber-700",
+      coverImage: "/images/book-covers/rulfo-pedro-paramo.svg"
+    },
+    {
+      id: 15,
+      title: "El Ruiseñor y la Rosa",
+      author: "Oscar Wilde",
+      fileName: "Wilde, Oscar - El Ruiseor y la Rosa.pdf",
+      color: "from-fuchsia-500 to-fuchsia-700",
+      coverImage: "/images/book-covers/wilde-ruisenor-rosa.svg"
     }
   ];
 
